@@ -1,0 +1,24 @@
+﻿    <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+
+
+    <!-- Можно убрать эту строку, она теперь не нужна -->
+    <!-- <StartupObject>AnimalFinder.Program</StartupObject> -->
+  </PropertyGroup>
+
+  <!-- твои пакеты Supabase -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Supabase" Version="1.1.1" />
+    <PackageReference Include="Supabase.Postgrest" Version="4.1.0" />
+    <PackageReference Include="Supabase.Storage" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
